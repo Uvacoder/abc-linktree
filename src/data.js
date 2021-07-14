@@ -43,7 +43,7 @@ export const links = [
   },
   {
     name: "Portfolio",
-    url: "https://codetann.github.io/portfolio/",
+    url: "https://codetann.github.io",
     icon: "fas fa-code",
     color: "#25d366",
   },
