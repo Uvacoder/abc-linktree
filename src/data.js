@@ -5,6 +5,7 @@ import {
   FaYoutube,
   FaGithub,
   FaCode,
+  FaLinkedinIn,
 } from "react-icons/fa";
 
 export const profilePicture =
@@ -44,6 +45,12 @@ export const social = [
     url: "https://github.com/codetann",
     icon: FaGithub,
     color: "purple",
+  },
+  {
+    name: "Linkedin",
+    url: "https://www.linkedin.com/in/tanner-thomas/",
+    icon: FaLinkedinIn,
+    color: "blue.500",
   },
 ];
 
