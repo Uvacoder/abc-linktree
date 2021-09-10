@@ -38,12 +38,12 @@ const Link = ({ data }) => {
       </Box>
       <VStack spacing=".2rem" align="left">
         <Heading size="md">{name}</Heading>
-        <Text fontSize="12px" color="blackAlpha.400">
+        <Text fontSize="12px" color="blackAlpha.500">
           {desc}
         </Text>
       </VStack>
       <Spacer />
-      <Box color="blackAlpha.500">
+      <Box color="blackAlpha.400">
         <FaArrowRight fontSize="10px" />
       </Box>
     </HStack>
