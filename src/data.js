@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaCode,
   FaLinkedinIn,
+  FaCamera,
 } from "react-icons/fa";
 
 export const profilePicture =
@@ -57,8 +58,16 @@ export const social = [
 export const links = [
   {
     name: "Portfolio",
+    desc: "Personal Web Development Website",
     url: "https://tannerthomas.dev",
     icon: FaCode,
+    color: "blue.300",
+  },
+  {
+    name: "TC Photo & Beauty",
+    desc: "Wedding Photography, Videography & Hair",
+    url: "https://tcphotobeauty.com",
+    icon: FaCamera,
     color: "blue.300",
   },
 ];

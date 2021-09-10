@@ -1,10 +1,10 @@
 import React from "react";
-import { VStack, Box, HStack, Heading, Spacer } from "@chakra-ui/react";
+import { VStack, Box, HStack, Heading, Spacer, Text } from "@chakra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 import { links } from "../../data";
 
 const Link = ({ data }) => {
-  const { name, url, color, icon: Icon } = data;
+  const { name, url, color, desc, icon: Icon } = data;
 
   const handleLink = () => {
     const anchor = document.createElement("a");
@@ -36,7 +36,12 @@ const Link = ({ data }) => {
       >
         <Icon style={{ fontSize: "24px" }} />
       </Box>
-      <Heading size="md">{name}</Heading>
+      <VStack spacing=".2rem" align="left">
+        <Heading size="md">{name}</Heading>
+        <Text fontSize="12px" color="blackAlpha.300">
+          {desc}
+        </Text>
+      </VStack>
       <Spacer />
       <Box color="blackAlpha.500">
         <FaArrowRight fontSize="10px" />
@@ -47,7 +52,7 @@ const Link = ({ data }) => {
 
 export function Links() {
   return (
-    <VStack w="100%">
+    <VStack w="100%" spacing="1rem">
       {links.map((l, i) => (
         <Link key={i} data={l} />
       ))}
