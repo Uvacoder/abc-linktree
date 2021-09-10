@@ -1,50 +1,57 @@
-/*
-To create a new <Link />, add to the links array.
-Edit as needed.
-*/
+import {
+  FaTwitter,
+  FaInstagram,
+  FaFacebook,
+  FaYoutube,
+  FaGithub,
+  FaCode,
+} from "react-icons/fa";
 
-export const profilePicture = "../imgs/profile-picture.jpg";
+export const profilePicture =
+  "https://pbs.twimg.com/profile_images/1180727567550046208/FfZHC8NX_400x400.jpg";
 
 export const name = "Tanner Thomas";
 
 export const bio = "Photographer && Web Developer";
 
-export const links = [
+export const social = [
   {
     name: "Twitter",
     url: "https://twitter.com/t_love12",
-    icon: "fab fa-twitter",
-    color: "#1da1f2",
+    icon: FaTwitter,
+    color: "blue.300",
   },
   {
     name: "Instagram",
     url: "https://instagram.com/tanner.ross",
-    icon: "fab fa-instagram",
-    color: "#c32aa3",
+    icon: FaInstagram,
+    color: "pink.700",
   },
   {
     name: "Facebook",
     url: "https://www.facebook.com/tanner.thomas.900",
-    icon: "fab fa-facebook",
-    color: "#1877f2",
+    icon: FaFacebook,
+    color: "blue",
   },
   {
     name: "Youtube",
-    url:
-      "https://www.youtube.com/channel/UC24Rnads5lUyFGCk-IIeyFw?view_as=subscriber",
-    icon: "fab fa-youtube",
-    color: "#ff0000",
+    url: "https://www.youtube.com/channel/UC24Rnads5lUyFGCk-IIeyFw?view_as=subscriber",
+    icon: FaYoutube,
+    color: "red",
   },
   {
     name: "GitHub",
     url: "https://github.com/codetann",
-    icon: "fab fa-github",
-    color: "#755DEB",
+    icon: FaGithub,
+    color: "purple",
   },
+];
+
+export const links = [
   {
     name: "Portfolio",
     url: "https://tannerthomas.dev",
-    icon: "fas fa-code",
-    color: "#25d366",
+    icon: FaCode,
+    color: "blue.300",
   },
 ];
