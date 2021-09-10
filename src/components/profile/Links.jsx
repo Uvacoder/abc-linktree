@@ -38,7 +38,7 @@ const Link = ({ data }) => {
       </Box>
       <VStack spacing=".2rem" align="left">
         <Heading size="md">{name}</Heading>
-        <Text fontSize="12px" color="blackAlpha.300">
+        <Text fontSize="12px" color="blackAlpha.400">
           {desc}
         </Text>
       </VStack>
