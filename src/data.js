@@ -12,14 +12,14 @@ import {
 export const profilePicture =
   "https://pbs.twimg.com/profile_images/1180727567550046208/FfZHC8NX_400x400.jpg";
 
-export const name = "Tanner Thomas";
+export const name = "Phil Conners";
 
 export const bio = "Photographer && Web Developer";
 
 export const social = [
   {
     name: "Twitter",
-    url: "https://twitter.com/t_love12",
+    url: "https://twitter.com/VaLandscapes",
     icon: FaTwitter,
     color: "blue.300",
   },
@@ -43,13 +43,13 @@ export const social = [
   },
   {
     name: "GitHub",
-    url: "https://github.com/codetann",
+    url: "https://github.com/uvacoder",
     icon: FaGithub,
     color: "purple",
   },
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/tanner-thomas/",
+    url: "https://www.linkedin.com/in/alecbcampbell/",
     icon: FaLinkedinIn,
     color: "blue.500",
   },
