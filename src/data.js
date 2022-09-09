@@ -8,6 +8,7 @@ import {
   FaGithub,
   FaCode,
   FaLinkedinIn,
+  FaFigma,
   FaCamera,
   FaKaggle,
 } from "react-icons/fa";
@@ -74,13 +75,19 @@ export const social = [
     icon: FaKaggle,
     color: "yellow.500",
   },
+  {
+    name: "Figma",
+    url: "https://www.figma.com/@Doc22940",
+    icon: FaFigma,
+    color: "blue.500",
+  },
 ];
 
 export const links = [
   {
     name: "Portfolio",
     desc: "Personal Web Development Website",
-    url: "https://tannerthomas.dev",
+    url: "https://abclinks.vercel.app",
     icon: FaCode,
     color: "blue.300",
   },
