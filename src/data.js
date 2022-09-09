@@ -3,6 +3,8 @@ import {
   FaCodepen,
   FaDev,
   FaDribbble,
+  FaJsfiddle,
+  FaStackOverflow,
   FaGithub,
   FaCode,
   FaLinkedinIn,
