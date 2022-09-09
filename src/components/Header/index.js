@@ -7,7 +7,7 @@ export default function index() {
       <div className="profile-pic">
         <img
           className="profile-pic"
-          src="/public/pics/lilpony-pink_400x400.jpg"
+          src="https://res.cloudinary.com/iarenotamnot/image/upload/v1662748887/profilepics/lilpony-headsmile.jpg"
           alt="profile"
         />
       </div>
