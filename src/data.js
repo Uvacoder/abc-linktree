@@ -9,14 +9,15 @@ import {
   FaCode,
   FaLinkedinIn,
   FaCamera,
+  FaKaggle,
 } from "react-icons/fa";
 
 export const profilePicture =
-  "https://pbs.twimg.com/profile_images/1180727567550046208/FfZHC8NX_400x400.jpg";
+  "https://raw.githubusercontent.com/Uvacoder/abc-linktree/main/public/pics/lilpony-pink_400x400.jpg";
 
 export const name = "Phil Conners";
 
-export const bio = "Photographer && Web Developer";
+export const bio = "Hunter && Gatherer";
 
 export const social = [
   {
@@ -63,9 +64,15 @@ export const social = [
   },
   {
     name: "Stackoverflow",
-    url: "https://jsfiddle.net/user/fiddles/all/",
+    url: "https://stackoverflow.com/users/17330377/uvacoder",
     icon: FaStackOverflow,
     color: "green.500",
+  },
+  {
+    name: "Kaggle",
+    url: "https://www.kaggle.com/ricrik",
+    icon: FaKaggle,
+    color: "yellow.500",
   },
 ];
 
