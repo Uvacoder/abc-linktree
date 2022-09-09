@@ -2,7 +2,7 @@ import {
   FaTwitter,
   FaCodepen,
   FaDev,
-  FaYoutube,
+  FaDribbble,
   FaGithub,
   FaCode,
   FaLinkedinIn,
@@ -58,6 +58,12 @@ export const social = [
     url: "https://jsfiddle.net/user/fiddles/all/",
     icon: FaJsfiddle,
     color: "red.500",
+  },
+  {
+    name: "Stackoverflow",
+    url: "https://jsfiddle.net/user/fiddles/all/",
+    icon: FaStackOverflow,
+    color: "green.500",
   },
 ];
 
