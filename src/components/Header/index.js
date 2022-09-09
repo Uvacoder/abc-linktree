@@ -7,7 +7,7 @@ export default function index() {
       <div className="profile-pic">
         <img
           className="profile-pic"
-          src="https://pbs.twimg.com/profile_images/1180727567550046208/FfZHC8NX_400x400.jpg"
+          src="/public/pics/lilpony-pink_400x400.jpg"
           alt="profile"
         />
       </div>
