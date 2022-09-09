@@ -16,17 +16,17 @@ import { Links } from "./Links";
 export function Profile() {
   const handleLink = () => {
     const anchor = document.createElement("a");
-    anchor.href = `mailto:codetann@gmail.com`;
+    anchor.href = `mailto:freeunioncoder@gmail.com`;
     anchor.click();
   };
   return (
     <VStack w="100%" pt="9vh" spacing="2rem">
       <VStack spacing="1rem">
         <Avatar shadow="lg" size="xl" src={profilePicture} />
-        <Heading size="lg">Tanner Thomas</Heading>
+        <Heading size="lg">Alec Campbell</Heading>
         <HStack color="blackAlpha.500">
           <FaMapMarkerAlt />
-          <Text>Lehi, Utah</Text>
+          <Text>Free Union, Virginia</Text>
         </HStack>
         <Text>{bio}</Text>
       </VStack>
