@@ -14,7 +14,7 @@ import {
 } from "react-icons/fa";
 
 export const profilePicture =
-  "https://raw.githubusercontent.com/Uvacoder/abc-linktree/main/public/pics/lilpony-pink_400x400.jpg";
+  "https://res.cloudinary.com/iarenotamnot/image/upload/v1662748887/profilepics/lilpony-headsmile.jpg";
 
 export const name = "Phil Conners";
 
