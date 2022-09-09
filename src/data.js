@@ -1,7 +1,7 @@
 import {
   FaTwitter,
-  FaInstagram,
-  FaFacebook,
+  FaCodepen,
+  FaDev,
   FaYoutube,
   FaGithub,
   FaCode,
@@ -24,21 +24,21 @@ export const social = [
     color: "blue.300",
   },
   {
-    name: "Instagram",
-    url: "https://instagram.com/tanner.ross",
-    icon: FaInstagram,
+    name: "Codepen",
+    url: "https://codepen.com/uvacoder",
+    icon: FaCodepen,
     color: "pink.700",
   },
   {
-    name: "Facebook",
-    url: "https://www.facebook.com/tanner.thomas.900",
-    icon: FaFacebook,
+    name: "Dev.to",
+    url: "https://www.dev.to/fu43033",
+    icon: FaDev,
     color: "blue",
   },
   {
-    name: "Youtube",
-    url: "https://www.youtube.com/channel/UC24Rnads5lUyFGCk-IIeyFw?view_as=subscriber",
-    icon: FaYoutube,
+    name: "Dribbble",
+    url: "https://www.dribbble.com/uvacoder",
+    icon: FaDribbble,
     color: "red",
   },
   {
@@ -52,6 +52,12 @@ export const social = [
     url: "https://www.linkedin.com/in/alecbcampbell/",
     icon: FaLinkedinIn,
     color: "blue.500",
+  },
+  {
+    name: "JsFiddle",
+    url: "https://jsfiddle.net/user/fiddles/all/",
+    icon: FaJsfiddle,
+    color: "red.500",
   },
 ];
 
